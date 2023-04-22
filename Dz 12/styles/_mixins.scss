@@ -1,0 +1,25 @@
+@mixin headerTxt($ff:'Montserrat', $fs) {
+    font-family: $ff;
+    font-style: normal;
+    font-size: $fs;
+    color: white;
+    text-align: center;
+}
+
+@mixin mainTxt($ff, $fs, $c) {
+    font-family: $ff;
+    font-size: $fs;
+    color: $c;
+}
+
+@mixin buttom($bc: $red) {
+    background-color: $bc;
+    border-radius: 40px;
+}
+
+@mixin photosTxt($fs:22px) {
+    font-family: 'Montserrat 700';
+    font-size: $fs;
+    text-align: center;
+    color: white;
+}
